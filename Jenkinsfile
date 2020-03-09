@@ -10,7 +10,7 @@ pipeline {
    }
   }
 
-}
+
  stage('Build') {
    parallel {
     stage('Compile') {
@@ -29,4 +29,5 @@ pipeline {
     
    }
   }
+}
 }
